@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52d2436b07432110dd29f61d7c1ed050" extends="cmdb_ci" label="OpenShift Clusters" max_length="40" name="x_956379_openshi_0_openshift_clusters" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="Requested" display="true" label="Cluster Status" mandatory="true" max_length="40" name="status" type="string"/>
+        <element choice="1" label="Special Feature" max_length="40" name="special_feature" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="GPU" sequence="0" value="gpu"/>
+                <element inactive_on_update="false" label="Virtualization" sequence="1" value="virt"/>
+            </choice>
+        </element>
+        <element choice="1" label="OpenShift Version" mandatory="true" max_length="40" name="ocp_version" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="4.13" sequence="0" value="4.13"/>
+                <element inactive_on_update="false" label="4.12" sequence="1" value="4.12"/>
+                <element inactive="true" inactive_on_update="true" label="4.11" sequence="2" value="4.11"/>
+                <element inactive_on_update="false" label="4.10" sequence="3" value="4.10"/>
+            </choice>
+        </element>
+        <element default="Pending" label="Console URL" max_length="1024" name="console_url" read_only="true" type="url"/>
+        <element default="False" label="Production Use" mandatory="true" max_length="255" name="protected" read_only="true" type="boolean"/>
+        <element label="Cluster Name" mandatory="true" max_length="63" name="cluster_name" read_only="true" type="string"/>
+        <element choice="1" label="Platform" max_length="40" name="platform" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Auto" sequence="0" value="auto"/>
+                <element inactive_on_update="false" label="OpenStack" sequence="1" value="openstack"/>
+                <element inactive_on_update="false" label="vSphere" sequence="2" value="vsphere"/>
+                <element inactive_on_update="false" label="Hybrid" sequence="3" value="infra_env_hybrid"/>
+                <element inactive_on_update="false" label="Azure" sequence="4" value="azure"/>
+            </choice>
+        </element>
+        <element choice="1" label="Size" mandatory="true" max_length="40" name="size" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sandbox" sequence="0" value="sandbox"/>
+                <element inactive_on_update="false" label="Small" sequence="1" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Large" sequence="3" value="large"/>
+                <element inactive_on_update="false" label="X-Large" sequence="4" value="xlarge"/>
+            </choice>
+        </element>
+    </element>
+</database>

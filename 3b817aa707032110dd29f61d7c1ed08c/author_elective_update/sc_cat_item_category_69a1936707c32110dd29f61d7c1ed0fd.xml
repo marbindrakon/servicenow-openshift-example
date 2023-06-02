@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cluster Request">bc71df2707c32110dd29f61d7c1ed00f</sc_cat_item>
+        <sc_category display_value="Infrastructure">803e95e1c3732100fca206e939ba8f2a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 03:28:27</sys_created_on>
+        <sys_id>69a1936707c32110dd29f61d7c1ed0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Infrastructure.Cluster Request</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_update_name>sc_cat_item_category_69a1936707c32110dd29f61d7c1ed0fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 03:28:27</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</application>
+        <file_path/>
+        <instance_id>234e0e1fdbb86344536ad5b0cf9619d2</instance_id>
+        <instance_name>dev71874</instance_name>
+        <name>sc_cat_item_category_69a1936707c32110dd29f61d7c1ed0fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cluster Request">bc71df2707c32110dd29f61d7c1ed00f</sc_cat_item><sc_category display_value="Infrastructure">803e95e1c3732100fca206e939ba8f2a</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-02 03:28:27</sys_created_on><sys_id>69a1936707c32110dd29f61d7c1ed0fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Infrastructure.Cluster Request</sys_name><sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package><sys_policy/><sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope><sys_update_name>sc_cat_item_category_69a1936707c32110dd29f61d7c1ed0fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-02 03:28:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-170005855</payload_hash>
+        <record_name>Infrastructure.Cluster Request</record_name>
+        <reverted_from/>
+        <source>930143a707032110dd29f61d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 03:28:27</sys_created_on>
+        <sys_id>61a1d36707c32110dd29f61d7c1ed01b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1887a2640780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 03:28:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e1a1d36728c32110e83d74fe6fbe091a</update_guid>
+        <update_guid_history>e1a1d36728c32110e83d74fe6fbe091a:-170005855</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Infrastructure.Cluster Request">5ab1176707c32110dd29f61d7c1ed05f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 03:28:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0edeb6e1257848239aac47838bff71b1</sys_id>
+        <sys_metadata>69a1936707c32110dd29f61d7c1ed0fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Infrastructure.Cluster Request</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_scope_delete display_value="">3686ff1138664276a2ad16ca61a29381</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_69a1936707c32110dd29f61d7c1ed0fd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_69a1936707c32110dd29f61d7c1ed0fd">61a1d36707c32110dd29f61d7c1ed01b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 03:28:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 02:23:59</sys_created_on>
+        <sys_id>19e2476b07432110dd29f61d7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_956379_openshi_0_openshift_clusters.x_956379_openshi_0.approver</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_security_acl display_value="x_956379_openshi_0_openshift_clusters">dde2476b07432110dd29f61d7c1ed04d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_19e2476b07432110dd29f61d7c1ed050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 02:23:59</sys_updated_on>
+        <sys_user_role display_value="x_956379_openshi_0.approver" name="x_956379_openshi_0.approver">c4917aa707032110dd29f61d7c1ed092</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</application>
+        <file_path/>
+        <instance_id>234e0e1fdbb86344536ad5b0cf9619d2</instance_id>
+        <instance_name>dev71874</instance_name>
+        <name>sys_security_acl_role_19e2476b07432110dd29f61d7c1ed050</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-02 02:23:59</sys_created_on><sys_id>19e2476b07432110dd29f61d7c1ed050</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_956379_openshi_0_openshift_clusters.x_956379_openshi_0.approver</sys_name><sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package><sys_policy/><sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope><sys_security_acl display_value="x_956379_openshi_0_openshift_clusters">dde2476b07432110dd29f61d7c1ed04d</sys_security_acl><sys_update_name>sys_security_acl_role_19e2476b07432110dd29f61d7c1ed050</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-02 02:23:59</sys_updated_on><sys_user_role display_value="x_956379_openshi_0.approver" name="x_956379_openshi_0.approver">c4917aa707032110dd29f61d7c1ed092</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-808919965</payload_hash>
+        <record_name>x_956379_openshi_0_openshift_clusters.x_956379_openshi_0.approver</record_name>
+        <reverted_from/>
+        <source>930143a707032110dd29f61d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 02:23:59</sys_created_on>
+        <sys_id>5de2476b07432110dd29f61d7c1ed052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18879eb3df30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 02:23:59</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>91e2476b4d43211009bd11ae89a71152</update_guid>
+        <update_guid_history>91e2476b4d43211009bd11ae89a71152:-808919965</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_956379_openshi_0_openshift_clusters.x_956379_openshi_0.approver">429f07eb07832110dd29f61d7c1ed0c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 03:19:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>769851e41c9b4bc0bec5b2a8dc2bd040</sys_id>
+        <sys_metadata>19e2476b07432110dd29f61d7c1ed050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_956379_openshi_0_openshift_clusters.x_956379_openshi_0.approver</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_parent display_value="x_956379_openshi_0_openshift_clusters">dde2476b07432110dd29f61d7c1ed04d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_scope_delete display_value="">3686ff1138664276a2ad16ca61a29381</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_19e2476b07432110dd29f61d7c1ed050</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_19e2476b07432110dd29f61d7c1ed050">5de2476b07432110dd29f61d7c1ed052</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 03:19:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

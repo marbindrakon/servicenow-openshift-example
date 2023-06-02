@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="status" label="Cluster Status" language="en" table="x_956379_openshi_0_openshift_clusters">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <help/>
+            <hint/>
+            <label>Cluster Status</label>
+            <language>en</language>
+            <name>x_956379_openshi_0_openshift_clusters</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-02 02:38:43</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Cluster Status</sys_name>
+            <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+            <sys_update_name>sys_documentation_x_956379_openshi_0_openshift_clusters_status_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-02 02:40:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
