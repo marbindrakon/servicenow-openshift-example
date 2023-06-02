@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>AAP Destroy Cluster [ Default GET ]</qualified_name>
+        <rest_endpoint>https://aap.lab.signal9.gg/api/v2/job_templates/17/launch/</rest_endpoint>
+        <rest_message display_value="AAP Destroy Cluster">f51fd3a307072110dd29f61d7c1ed01f</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 04:28:17</sys_created_on>
+        <sys_id>425f9fa307072110dd29f61d7c1ed05b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_425f9fa307072110dd29f61d7c1ed05b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 04:28:17</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</application>
+        <file_path/>
+        <instance_id>234e0e1fdbb86344536ad5b0cf9619d2</instance_id>
+        <instance_name>dev71874</instance_name>
+        <name>sys_rest_message_fn_425f9fa307072110dd29f61d7c1ed05b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>AAP Destroy Cluster [ Default GET ]</qualified_name><rest_endpoint>https://aap.lab.signal9.gg/api/v2/job_templates/17/launch/</rest_endpoint><rest_message display_value="AAP Destroy Cluster">f51fd3a307072110dd29f61d7c1ed01f</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-02 04:28:17</sys_created_on><sys_id>425f9fa307072110dd29f61d7c1ed05b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package><sys_policy/><sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope><sys_update_name>sys_rest_message_fn_425f9fa307072110dd29f61d7c1ed05b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-02 04:28:17</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>745753361</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>930143a707032110dd29f61d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 04:28:17</sys_created_on>
+        <sys_id>4e5f9fa307072110dd29f61d7c1ed05c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1887a5d098e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 04:28:17</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>825f9fa378072110cc44d361ba85bb5c</update_guid>
+        <update_guid_history>825f9fa378072110cc44d361ba85bb5c:745753361</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-02 04:28:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>05d1539c94794bf480cfc0bae8ffb921</sys_id>
+        <sys_metadata>425f9fa307072110dd29f61d7c1ed05b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
+        <sys_parent display_value="AAP Destroy Cluster">f51fd3a307072110dd29f61d7c1ed01f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
+        <sys_scope_delete display_value="">3686ff1138664276a2ad16ca61a29381</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_425f9fa307072110dd29f61d7c1ed05b</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_425f9fa307072110dd29f61d7c1ed05b">4e5f9fa307072110dd29f61d7c1ed05c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-02 04:28:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

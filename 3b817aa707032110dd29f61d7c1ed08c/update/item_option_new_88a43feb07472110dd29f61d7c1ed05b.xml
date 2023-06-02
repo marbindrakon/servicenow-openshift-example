@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>4.12</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>assigned_to</field>
+        <field>ocp_version</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -41,13 +41,13 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>assigned_to</name>
-        <order>600</order>
+        <name>ocp_version</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Who will manage this cluster?</question_text>
+        <question_text>What version of OpenShift do you need?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -55,11 +55,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_956379_openshi_0_openshift_clusters</record_producer_table>
-        <reference>sys_user</reference>
-        <reference_qual>active=true^internal_integration_user=false</reference_qual>
-        <reference_qual_condition table="sys_user">active=true^internal_integration_user=false<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="internal_integration_user" goto="false" newquery="false" operator="=" or="false" value="false"/>
-        </reference_qual_condition>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-02 03:37:02</sys_created_on>
-        <sys_id>a123936707c32110dd29f61d7c1ed070</sys_id>
+        <sys_created_on>2023-06-02 06:02:28</sys_created_on>
+        <sys_id>88a43feb07472110dd29f61d7c1ed05b</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Who will manage this cluster?</sys_name>
+        <sys_name>What version of OpenShift do you need?</sys_name>
         <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
-        <sys_update_name>item_option_new_a123936707c32110dd29f61d7c1ed070</sys_update_name>
+        <sys_update_name>item_option_new_88a43feb07472110dd29f61d7c1ed05b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 06:02:50</sys_updated_on>
+        <sys_updated_on>2023-06-02 06:02:49</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -105,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=a123936707c32110dd29f61d7c1ed070"/>
-    <fx_price action="delete_multiple" query="id=a123936707c32110dd29f61d7c1ed070"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=88a43feb07472110dd29f61d7c1ed05b"/>
+    <fx_price action="delete_multiple" query="id=88a43feb07472110dd29f61d7c1ed05b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>a123936707c32110dd29f61d7c1ed070</id>
+        <id>88a43feb07472110dd29f61d7c1ed05b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-02 03:37:02</sys_created_on>
-        <sys_id>139317e707c32110dd29f61d7c1ed048</sys_id>
+        <sys_created_on>2023-06-02 06:02:28</sys_created_on>
+        <sys_id>31e4332f07472110dd29f61d7c1ed094</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 03:37:02</sys_updated_on>
+        <sys_updated_on>2023-06-02 06:02:28</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -128,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>a123936707c32110dd29f61d7c1ed070</id>
+        <id>88a43feb07472110dd29f61d7c1ed05b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-02 03:37:02</sys_created_on>
-        <sys_id>939317e707c32110dd29f61d7c1ed047</sys_id>
+        <sys_created_on>2023-06-02 06:02:28</sys_created_on>
+        <sys_id>39e4332f07472110dd29f61d7c1ed092</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 03:37:02</sys_updated_on>
+        <sys_updated_on>2023-06-02 06:02:28</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

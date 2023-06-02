@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Cluster Request">bc71df2707c32110dd29f61d7c1ed00f</sc_cat_item>
-        <sc_category display_value="Infrastructure">803e95e1c3732100fca206e939ba8f2a</sc_category>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-06-02 03:28:47</sys_created_on>
-        <sys_id>16b1176707c32110dd29f61d7c1ed06b</sys_id>
+        <sys_created_on>2023-06-02 05:24:02</sys_created_on>
+        <sys_id>ba1c2f6307472110dd29f61d7c1ed0d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Infrastructure.Cluster Request</sys_name>
+        <sys_name>Departmental Services.Cluster Request</sys_name>
         <sys_package display_value="OpenShift Cluster Request" source="x_956379_openshi_0">3b817aa707032110dd29f61d7c1ed08c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
-        <sys_update_name>sc_cat_item_category_16b1176707c32110dd29f61d7c1ed06b</sys_update_name>
+        <sys_update_name>sc_cat_item_category_ba1c2f6307472110dd29f61d7c1ed0d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 03:28:47</sys_updated_on>
+        <sys_updated_on>2023-06-02 05:24:02</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

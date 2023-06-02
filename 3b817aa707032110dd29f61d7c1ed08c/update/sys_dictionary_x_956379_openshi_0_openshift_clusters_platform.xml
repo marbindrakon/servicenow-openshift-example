@@ -11,7 +11,7 @@
         <column_label>Platform</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>auto</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,12 +28,12 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_956379_openshi_0_openshift_clusters</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="OpenShift Cluster Request">3b817aa707032110dd29f61d7c1ed08c</sys_scope>
         <sys_update_name>sys_dictionary_x_956379_openshi_0_openshift_clusters_platform</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 02:38:48</sys_updated_on>
+        <sys_updated_on>2023-06-02 05:42:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
